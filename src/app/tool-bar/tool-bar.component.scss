@@ -1,0 +1,13 @@
+ ::ng-deep .tool-bar {
+   margin-bottom: 5px;
+   padding: 10px;
+
+
+   // background-color: #344955;
+ }
+
+ @media(max-width:600px) {
+  ::ng-deep .tool-bar{
+    flex-flow: column;
+  }
+ }
